@@ -1,0 +1,56 @@
+.container-x {
+    display: flex;
+    width: 76%;
+    height: 35rem;
+    justify-content: end;
+    padding-right: 30px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    box-shadow: -3px 5px 10px black;
+
+
+}
+
+
+.db-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid;
+
+
+    margin-top: 10px;
+}
+
+.db-img-container {
+    display: flex;
+
+    height: 5rem;
+    align-content: center;
+    gap: 5px;
+}
+
+.db-title {
+    font-weight: none;
+    width: 12rem;
+    height: 1.5rem;
+    padding-left: 5px;
+    border-bottom: 2px solid;
+}
+
+.db-img-cars {
+    width: 8rem;
+    height: 6rem;
+
+}
+
+.db-sedan-img {
+    display: flex;
+
+    width: 15rem;
+    height: 8rem;
+
+
+
+}

@@ -1,0 +1,22 @@
+#root {
+  display: flex;
+
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
+  padding-bottom: 60px;
+  background-color: whitesmoke;
+}
+
+.context-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-items: center;
+  height: auto;
+
+  background-color: white;
+
+
+}

@@ -1,0 +1,11 @@
+.carrito-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    border: 2px solid;
+}
+
+.b-img {
+    width: 10rem;
+    height: 10rem;
+}

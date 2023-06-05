@@ -1,0 +1,32 @@
+[
+    {
+        "id": "8",
+        "marca": "Hyundai",
+        "modelo": "New Accent",
+        "Año": "2015",
+        "Combustible": "Bencina",
+        "Carrocería": "Sedan",
+        "Motor": "1.4",
+        "Trasmisión": "Mecánica",
+        "Cambios": "6",
+        "Neumáticos": "185/65R15",
+        "img": "https://imgclasificados3.emol.com/Publicador/166/F1221072322292618724912193118252471620814166.JPG",
+        "liked": "false",
+        "precio": "10.000.000"
+    },
+    {
+        "id": "9",
+        "marca": "Mazda",
+        "modelo": "3",
+        "Año": "2014",
+        "Combustible": "Gasolina",
+        "Carrocería": "Hatchback",
+        "Motor": "2.0L",
+        "Trasmisión": "Mecánica",
+        "Cambios": "6",
+        "Neumáticos": "205/50R1",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3W7_8dJXNYqpHO9eKNuwzLCeGvPHhHfNSfA&usqp=CAU",
+        "liked": "false",
+        "precio": "10.000.000"
+    }
+]
