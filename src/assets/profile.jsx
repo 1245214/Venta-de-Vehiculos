@@ -49,7 +49,7 @@ const registroUsuarios = () => {
         })
 
         if (users) {
-            alert('/not')
+            alert('/Crea otro email')
             return navigate("/registro")
         }
 
@@ -152,24 +152,3 @@ const registroUsuarios = () => {
 }
 
 export default registroUsuarios
-/*
-<input className='input-text' value={nombre} placeholder='Nombre (s)' type="text" onChange={(e) => { setNombre(e.target.value) }} />
-<input className='input-text' value={apellidos} placeholder='Apellidos' type="text" onChange={(e) => { setApellidos(e.target.value) }} />
-<input className='input-text' value={celular} placeholder='Celular' type="number" onChange={(e) => { setCelular(e.target.value) }} />
-</form>
-</div>
-<div className='flex-container '>
-<form onSubmit={handlesubmit}>
-<input className='input-text' value={comuna} placeholder='Comuna' type="text" onChange={(e) => { setComuna(e.target.value) }} />
-<input className='input-text' value={provincia} placeholder='Provincia' type="text" onChange={(e) => { setProvincia(e.target.value) }} />
-<input className='input-text' value={región} placeholder='Región' type="text" onChange={(e) => { setRegión(e.target.value) }} /> </form>
-</div>
-
-<div className='flex-container '>
-<form onSubmit={handlesubmit}>
-<input className='input-text' value={email} placeholder='E-mail' type="text" onChange={(e) => { setEmail(e.target.value) }} />
-<input className='input-text' value={contraseña} placeholder='Contraseña' type="text" onChange={(e) => { setContraseña(e.target.value) }} />
-<input className='input-text' value={comprobarContraseña} placeholder="Comprobar-contraseña" type='text' onChange={(e) => { setComprobarContraseña(e.target.value) }} />*/
-
-// <button onSubmit={handlesubmit}>ingresar</button>
-//   <Button variant="outlined" onSubmit={handlesubmit}>Primary</Button>

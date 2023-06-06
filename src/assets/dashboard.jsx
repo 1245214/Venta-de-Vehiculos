@@ -37,6 +37,7 @@ const Perfil = () => {
 
 
                 <Box style={{ marginLeft: "50px" }}>
+                    <h2 className='db-titulo'>Agregar Vehículo a galeria</h2>
                     <NewProduct />
                 </Box>
                 <Container maxWidth="xl" style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", height: "48rem", background: "white", marginLeft: "150px" }}>

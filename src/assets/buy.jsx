@@ -1,7 +1,7 @@
 import "./buy.css"
 import { useContext, useState } from 'react'
 import ContextVehiculos from './createContext'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { Context } from './contextUsuarios'
 //trabaje con el frameWork UI
 import Box from '@mui/material/Box';

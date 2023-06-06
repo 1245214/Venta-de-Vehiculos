@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 148vh;
+    height: 145vh;
     background-image: linear-gradient(to left, #808000, #b3b300, #ffff66, #ffff66, #b3b300, #808000);
+
+
 
 }
 

@@ -33,7 +33,7 @@ const Usuarios = ({ children }) => {
         if (selectionUsers.length === 0) {
             getUsersSelect();
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+
     }, []);
 
 
@@ -62,7 +62,7 @@ const Usuarios = ({ children }) => {
             return navigate('/registro')
         }
         else if (user.contraseña != user.comprobarContraseña) {
-            alert('contrasenas desiguales')
+            alert('contraseñas desiguales')
             return navigate("/registro")
 
         }
@@ -71,17 +71,13 @@ const Usuarios = ({ children }) => {
         setUsers(user);
         setSelectionUser([...selectionUsers, user]);
 
-        // useEffect(() => { createDataUsers(); }, [])
+
 
 
 
 
     }
 
-    const logout = () => {
-        setUsers(null);
-        localStorage.removeItem("users");
-    };
     return (
 
         <Context.Provider value={{ users, login, register }}>{children}</Context.Provider>
